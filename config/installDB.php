@@ -19,6 +19,6 @@ if(mysql_num_rows(mysqli_query($dbConnection, "SHOW TABLES LIKE '".$dbTable."'")
     mysqli_query($dbConnection, $createDbTable);
 }
 
-echo "Ok I think it worked lol";
+echo ("Ok I think it worked lol");
 
 ?>
