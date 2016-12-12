@@ -24,7 +24,7 @@ $siteURL="https://stanley-bot.herokuapp.com/";
 
 // Slack Webhook integration
 $slackWebHookURL="https://hooks.slack.com/services/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";
-$slackRoom = "private";
+$slackRoom = "testing";
 $slackBotName = "Shitty Text Man"; //THE NAME OF YOUR BOT
 $slackBotIcon = ":robot_face:"; // THE PROFILE IMAGE OF YOUR BOT example :money_mouth_face: or :shit:
 
