@@ -16,16 +16,16 @@ $projectPhoneNumber="YOUR PHONE NUMBER";
 
 
 // Twilio API credentials
-$accountSid = "YOUR ACCOUNT SID";
-$authToken = "YOUR ACCOUNT TOKEN"; //
-$twilioPhoneNumber = "YOUR TWILIO PHONE NUMBER";
-$siteURL="YOUR SITE URL";
+$accountSid = "ACb6207eb609d9004ff6898c42484b66dc";
+$authToken = "36d94a4321ca8b2f0b38a77b8a2b469e"; //
+$twilioPhoneNumber = "+14695139969";
+$siteURL="https://stanley-bot.herokuapp.com/";
 
 
 // Slack Webhook integration
-$slackWebHookURL="YOUR SLACK PRIVATE CHANNEL WEB HOOK";
-$slackRoom = "THE NAME OF YOUR SLACK ROOM";
-$slackBotName = "Stanley"; //THE NAME OF YOUR BOT
+$slackWebHookURL="https://hooks.slack.com/services/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";
+$slackRoom = "private";
+$slackBotName = "Shitty Text Man"; //THE NAME OF YOUR BOT
 $slackBotIcon = ":robot_face:"; // THE PROFILE IMAGE OF YOUR BOT example :money_mouth_face: or :shit:
 
 
@@ -34,7 +34,7 @@ $dbHost = "us-cdbr-iron-east-04.cleardb.net";
 $dbName = "heroku_53a250df5e445ac";
 $dbUserName = "b8b4775f003473";
 $dbPassword = "75e8e336";
-$dbTable = "THE NAME OF THE DATABASE TABLE";
+$dbTable = "yomum";
 
 $dbConnection = mysqli_connect($dbHost, $dbUserName, $dbPassword,$dbName);
 mysqli_error($dbConnection);
